@@ -1,1 +1,1 @@
-# emir-mertoglu-homework-1
+# Emir Mertoglu, Homework 1: Library Management System
