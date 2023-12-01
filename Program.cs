@@ -25,11 +25,10 @@ namespace emir_mertoglu_homework_1
             libraryService.BorrowBook(member1, book1);
             libraryService.BorrowBook(member2, book2);
 
-            
+            libraryService.ReturnBook(member1, book1);
+            libraryService.ReturnBook(member2, book2);
 
             Console.WriteLine("\nBooks:");
-
-
             foreach (var book in libraryService.books)
             {
                 book.Print();
